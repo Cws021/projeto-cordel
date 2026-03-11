@@ -4,13 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
-@media screen and (max-width: 768px) {
-    section.imagem {
-        background-attachment: scroll;
-        background-size: cover;
-        background-position: center center;
-    }
-}
 
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
@@ -107,4 +100,12 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    section.imagem {
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center center;
+    }
 }
